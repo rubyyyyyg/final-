@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Final</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    
+    <style type="text/css">
+
+ html, body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+body {
+    background-color: #dddddd;
+}
+#topPage {
+    position: fixed;
+    top: 0;
+    background-color: white;
+    width: 100%;
+    margin-bottom: 20px;
+}
+#commentPlace {
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    padding-top: 2%
+}
+#mainContent {
+    margin-top: 150px;
+    background-color: #dddddd;
+    margin-bottom: 150px;
+}
+h1 {
+    margin-left: 25px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+h6 {
+    margin-left: 25px;
+    margin-top: 25px;
+    font-weight: lighter;
+    font-size: 15px;
+}
+#inputName {
+    width: 20%;
+    height: 20px;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    border-radius: 5px;
+}
+#inputComment {
+    width: 60%;
+    height: 20px;
+    margin-left: 1%;
+    margin-bottom: 2%;
+    margin-right: 2%;
+    border-radius: 5px;
+}
+#submit {
+    height: 20px;
+    width: 10%;
+    border: none;
+    color: blue;
+    font-size: 15px;
+}
+.commentBox {
+    width: 90%;
+    height: 100px;
+    background-color: white;
+    margin: 40px 15px 20px 10px;
+    padding: 10px
+}
+img {
+    float: left;
+    height: 100px;
+    width: auto;
+}
+.commentTop {
+    margin-top: 10px;
+    display: flex;
+}
+.userName {
+    margin-left: 2%;
+    width: 80%;
+}
+.comment {
+    display: flex;
+    margin: 0;
+    font-size: 30px;
+}
+.edit, .delete {
+    border: none;
+    color: blue;
+    letter-spacing: 1px;
+    font: 15px;
+    margin-left: 10px;
+    justify-self: flex-end;
+}
+#editCom {
+    background-color: white;
+    margin-left: 20px;
+    width: 60%;
+    height: 20px;
+    border-radius: 5px;
+}
+#submitEdit {
+    height: 20px;
+    color: blue;
+    font-size: 10px;
+    margin-left: 10px;
+}
+
+    </style>
+</head>
+<body>
+    <div id="topPage">
+        <h6>WhySerious45</h6>
+        <h1>Trying to decide a career path? Programming is the move. Change my mind.</h1>
+    </div>
+
+
+    <div id="mainContent">
+
+    </div>
+
+
+    <div id="commentPlace">
+        <input type="text" id="inputName" placeholder="Display Name">
+        <input type="text" id="inputComment" placeholder="Comment">
+        <button id="submit">Submit</button>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>
